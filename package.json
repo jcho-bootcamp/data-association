@@ -1,0 +1,22 @@
+{
+  "name": "data-association",
+  "version": "1.0.0",
+  "description": "data association exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcho-bootcamp/data-association.git"
+  },
+  "author": "June Hyok Cho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcho-bootcamp/data-association/issues"
+  },
+  "homepage": "https://github.com/jcho-bootcamp/data-association#readme",
+  "dependencies": {
+    "mongoose": "^5.5.3"
+  }
+}

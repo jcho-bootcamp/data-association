@@ -2,24 +2,8 @@ const mongoose = require("mongoose");
 
 mongoose.connect("mongodb://localhost/data-association", { useNewUrlParser: true });
 
-// POST SCHEMA
-let postSchema = new mongoose.Schema({
-  title: String,
-  content: String
-});
-
-// USER SCHEMA
-let userSchema = new mongoose.Schema({
-  name: String,
-  email: String,
-  posts: [postSchema]
-});
-
-// POST MODEL
-let Post = mongoose.model("Post", postSchema);
-
-// USER MODEL
-let User = mongoose.model("User", userSchema);
+let Post = require("./models/post");
+let User = require("./models/user");
 
 // let cam = new User({
 //   name: "Cam",

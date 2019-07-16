@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/jcho-bootcamp/data-association#readme",
   "dependencies": {
-    "mongoose": "^5.5.3"
+    "mongoose": "^5.6.4"
   }
 }
